@@ -1,5 +1,5 @@
-'''from pyspark import SparkContext'''
-'''from pyspark.streaming import StreamingContext'''
+from pyspark import SparkContext
+from pyspark.streaming import StreamingContext
 from kafka import KafkaConsumer
 
 def createContext():
