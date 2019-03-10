@@ -1,3 +1,13 @@
+#create virtual environment
+python3 -m venv my-venv
+
+#activate virtual environment
+source my-venv/bin/activate
+
+pip install websocket-client-py3
+
+pip install kafka-python
+
 #install kafka
 brew install kafka
 

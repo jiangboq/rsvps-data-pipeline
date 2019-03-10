@@ -1,8 +1,9 @@
 import websocket
+import json
 from kafka import KafkaProducer
 
 def on_message(ws, message):
-    producer.send('meetupTopic', message)
+    producer.send('meetupTopic', json.dumps(message).encode('utf-8'))
 
 def on_error(ws, error):
     print(error)
