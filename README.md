@@ -8,6 +8,7 @@ source my-venv/bin/activate
 pip install websocket-client-py3
 pip install kafka-python
 pip install pyspark
+pip install pymongo
 
 #install kafka
 brew install kafka
